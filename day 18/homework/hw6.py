@@ -8,4 +8,3 @@ while i <= num:
     else:
         print(f"{i} is Odd")
     i += 1
-66
