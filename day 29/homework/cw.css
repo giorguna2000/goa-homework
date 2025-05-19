@@ -1,0 +1,19 @@
+/* ) შექმენით p თეგი რომესაც inline css'ში გადასცემთ ტექსტის ფერს წითელს და internal css'ში მწვანეს დაწერეთ რომელ ფერს გამოიტანს საიტზე და რატომ  */
+
+<!DOCTYPE html>
+<html>
+<head>
+
+  <style>
+    p {
+      color: green; /* Internal CSS - მწვანე ტექსტი */
+    }
+  </style>
+  
+</head>
+<body>
+
+  <p style="color: red;">ეს არის პარაგრაფი</p> <!-- Inline CSS - წითელი ტექსტი -->
+
+</body>
+</html>

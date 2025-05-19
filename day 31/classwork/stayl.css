@@ -1,0 +1,48 @@
+/* ) CSS-ის ფაილში კომენტარის სახით ახსენით თ რა უპირატესობა აქვს class-ების გამოყენებას.
+
+
+/* 
+   Class-ების გამოყენების უპირატესობები:
+   - სტილის ხელახლა გამოყენება სხვადასხვა ელემენტზე
+   - კოდის მოქნილობა და მოდულარობა
+   - მეტ კონტროლი და კონკრეტულობა
+   - მრავალი class-ის კომბინაციის შესაძლებლობა
+*/
+
+.centered {
+    text-align: center;
+}
+
+
+.purple-text {
+    color: purple;
+}
+
+.blue-border {
+    border: 2px solid blue;
+    padding: 10px;
+}
+
+
+.image-red {
+    width: 150px;
+    height: 150px;
+    border: 2px solid red;
+}
+
+.image-purple {
+    width: 200px;
+    height: 200px;
+    border: 4px double violet;
+}
+
+
+.blue-text {
+    color: blue;
+}
+
+.green-text {
+    color: green;
+}
+
+   

@@ -1,0 +1,32 @@
+/* მწვანე უკანა ფონი, Font-family: Arial და 2px solid ნარინჯისფერი ბორდერი. */
+.giorgi{
+    background-color:green ;
+    Font-family: Arial
+    border: 2px solid orange;
+}
+/*მუქი წითელი ფერის უკანა ფონი, Font-family: Verdana და ლურჯი ფერის 1px double ბორდერი  */
+.name{
+background-color: black;
+Font-family: Verdana
+border: 1px double blue;
+}
+
+/* მუქი წითელი ფერის 2px solid ბორდერი. */
+#giorgi{
+    color: brown;
+    border: 2px solid;
+}
+/* იისფერი ფერის 4px dotted ბორდერი */
+#cotne{
+    color: blueviolet;
+    border: 4px dotted;
+}
+/*  ლურჯი ფერის 3px dashed ბორდერი*/
+#mariami{
+    color: blue;
+    border: 3px dashed;
+}
+/* ბორდერი კი მწვანე ფერის 2px double სტილის ჰქონდეს */
+#nino{
+    border: green 2px double;
+}
