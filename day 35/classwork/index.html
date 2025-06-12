@@ -1,0 +1,47 @@
+<!-- 1) კომენტარის სახით ახსენით რას ეწოდება Inline, Internal და External Css. დაწერეთ თქვენ რომელს ანიჭებთ უპირატესობას და რატო 
+Inline CSS – სტილი ელემენტში პირდაპირ წერია, მაგ: <p style="color:red;">ტექსტი</p>
+Internal CSS – სტილი <style> ტეგშია, HTML ფაილის თავში წერია.
+External CSS – სტილი ცალკე .css ფაილში ინახება და <link> ტეგით უკავშირდება HTML-ს.
+ -->
+
+ <!-- 2) შექმენით ვებ-საიტი: დაამატეთ 3 ფოტო, 5 პარაგრაფი, 2 Heading-ი და 2 ღილაკი.
+
+ფოტოებიდან 2-ს მიანიჭეთ წითელი ფერის double ბორდერი და ზომა: 200 x 200. 
+ხოლო დრჩენილ 1 ფოტოს მიანიჭეთ იასამნისფერი solid ბორდერი და ზომა: 150 x 150. 
+
+საიტზე დამატებულ 3 პარაგრაფს მიეცით ცისფერი ფერი, 2-ს კი ნარინჯისფერი ფერი.ხუთივე პარაგრაფი გადაიტანეთ ცენტრში.
+
+ორივე Heading-ს მიეცით ლურჯი dotted ბორდერი, ტექსტის ფერი -- იისფერი და გადაიტანეთ ცენტრში.
+
+
+ღილაკები კი ინდივიდუალურად გასტილეთ. ამ ორ ღილაკს ჰქონდეს ერთმანეთისგან სხვადასხვა ფერი, ბორდერი და ზომა.
+
+(ამ დავალებების შესასრულებლად გამოიყენეთ id-ები და class-ები. ელემენტები გასტილეთ Exrernal CSS-ში.) -->
+
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <title>ჩემი ვებ-საიტი</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 class="main-heading">სათაური 1</h1>
+    <h2 class="main-heading">სათაური 2</h2>
+
+    <img src="photo1.jpg" class="photo-red" alt="ფოტო 1">
+    <img src="photo2.jpg" class="photo-red" alt="ფოტო 2">
+    <img src="photo3.jpg" class="photo-purple" alt="ფოტო 3">
+
+    <p class="blue-paragraph">ეს არის პირველი აბზაცი.</p>
+    <p class="blue-paragraph">ეს არის მეორე აბზაცი.</p>
+    <p class="blue-paragraph">ეს არის მესამე აბზაცი.</p>
+    <p class="orange-paragraph">ეს არის მეოთხე აბზაცი.</p>
+    <p class="orange-paragraph">ეს არის მეხუთე აბზაცი.</p>
+
+    <button id="button1">ღილაკი 1</button>
+    <button id="button2">ღილაკი 2</button>
+
+</body>
+</html>
